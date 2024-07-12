@@ -1,4 +1,9 @@
 package test3;
+/*
+ * 날짜 : 2024/07/11
+ * 이름 : 박경림
+ * 내용 : 싱글톤 객체 연습문제
+ */
 
 class Vehicle {
 	private String name;

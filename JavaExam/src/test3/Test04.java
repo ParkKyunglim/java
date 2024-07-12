@@ -1,4 +1,9 @@
 package test3;
+/*
+ * 날짜 : 2024/07/11
+ * 이름 : 박경림
+ * 내용 : 
+ */
 
 class Student {
 	public static int studentId;

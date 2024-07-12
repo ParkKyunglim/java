@@ -11,12 +11,15 @@ public class Car {
 	Car() {}
 	
 	Car(String model) {
-		this.model = model;
+		// 20라인 생성자 호출
+		this(model, "은색", 250);
 	}
 	
 	Car(String model, String color) {
-		this.model = model;
-		this.color = color;
+		// 20라인 생성자 호출
+
+		this(model, color, 250);
+
 	}
 	
 	Car(String model, String color, int maxSpeed) {
