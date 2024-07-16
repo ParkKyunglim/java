@@ -4,38 +4,40 @@ public class RemoteSamsung implements RemoteControl {
 
 	@Override
 	public void powerOn() {
-		System.out.println("Samsung powerOn...");
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void powerOff() {
-		System.out.println("Samsung powerOff...");
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void chUp() {
-		System.out.println("Samsung chUp...");
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void chDown() {
-		System.out.println("Samsung chDown...");
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void soundUp() {
-		System.out.println("Samsung soundUp...");
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void soundDown() {
-		System.out.println("Samsung soundDown...");
+		// TODO Auto-generated method stub
 		
 	}
+
+	
 
 }
