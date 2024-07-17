@@ -1,4 +1,4 @@
-package sub3;
+package sub4;
 
 public class MethodOverloadingTest {
 	public static void main(String[] args) {
@@ -6,9 +6,17 @@ public class MethodOverloadingTest {
 		int r1 = add(3);
 		int r2 = add(1, 2);
 		double r3 = add(1.0, 2.1);
-		String r4 = 
+		String r4 = add("Hello", "World");
 		
+		
+		System.out.println("r1 : " + r1);
+		System.out.println("r2 : " + r2);
+		System.out.println("r3 : " + r3);
+		System.out.println("r4 : " + r4);		
 	}
+	
+	
+	
 	// 오버로드 메서드 정의
 	   public static int add(int a) {
 	      return a + a;   
@@ -26,5 +34,4 @@ public class MethodOverloadingTest {
 	      return a + b;
 	   }
 	   
-	   }
 }
