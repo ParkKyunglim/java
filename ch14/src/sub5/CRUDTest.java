@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /*
  * 날짜 : 2024/07/30
- * 이름 : 김철학
+ * 이름 : 박경림
  * 내용 : Transaction 실습하기
  */
 public class CRUDTest {
@@ -78,7 +78,7 @@ public class CRUDTest {
 				user.setUid(sc.next());
 				
 				System.out.print("수정 회원 이름 입력 : ");
-				user.setName(sc.next());
+				user.setMname(sc.next());
 				
 				System.out.print("수정 회원 생년월일 입력 : ");
 				user.setBirth(sc.next());
